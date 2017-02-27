@@ -24,9 +24,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 // routes
 var index = require('./routes/index');
 var users = require('./routes/users');
+var pantry = require('./routes/pantry');
 app.use('/', index);
 app.use('/users', users);
-
+app.use('/pantry', pantry);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
 	var err = new Error('Not Found');
