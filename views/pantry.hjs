@@ -8,7 +8,7 @@
     <h1>{{ title }}</h1>
 	<ul>
 		{{#ingredients}}
-			<li>{{measure}} {{ingredient}}</li>
+			<li>{{quantity.amount}} {{quantity.measure}} {{ingredient.name}}</li>
 		{{/ingredients}}
 	</ul>
   </body>
