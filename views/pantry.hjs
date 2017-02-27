@@ -6,6 +6,10 @@
   </head>
   <body>
     <h1>{{ title }}</h1>
-    <p>{{ title }} by {{author}}</p>
+	<ul>
+		{{#ingredients}}
+			<li>{{measure}} {{ingredient}}</li>
+		{{/ingredients}}
+	</ul>
   </body>
 </html>
