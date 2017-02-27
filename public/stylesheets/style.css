@@ -1,1 +1,1 @@
-body{padding:50px;font:14px "Lucida Grande",Helvetica,Arial,sans-serif}a{color:#00b7ff}#pantry{border:#f00 solid thin}
+body{padding:50px;font:14px "Lucida Grande",Helvetica,Arial,sans-serif}a{color:#00b7ff}#pantry{border:#bbb solid thin;padding:0;}#pantry li{list-style:none;padding:.5em;background:linear-gradient(top,#fff,#008000)}
