@@ -1,6 +1,11 @@
 [{
-  "measure": "2cup",
-  "ingredient": "salsa"
+  "quantity": {
+    "amount": 2,
+    "measure": "cups"
+  },
+  "ingredient": {
+    "name": "salsa"
+  }
 },
 {
   "measure": "2cup",
