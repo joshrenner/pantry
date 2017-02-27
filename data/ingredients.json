@@ -8,14 +8,28 @@
   }
 },
 {
-  "measure": "2cup",
-  "ingredient": "cottage cheese"
+  "quantity": {
+    "amount": 2,
+    "measure": "cups"
+  },
+  "ingredient": {
+    "name": "cottage cheese"
+  }
 },
 {
-  "measure": "10oz",
-  "ingredient": "paprika"
+  "quantity": {
+    "amount": 10,
+    "measure": "oz"
+  },
+    "ingredient": {
+      "name": "flour"
+    }
 },
 {
-  "measure": "1wheel",
-  "ingredient": "cheddar cheese"  
+  "quantity": {
+    "amount": 5
+  },
+  "ingredient": {
+  "name": "apple"  
+}
 }]
