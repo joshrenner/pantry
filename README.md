@@ -7,3 +7,7 @@
 - install Node `brew install node`
 - install n `npm install -g n`
 - install avn `npm install -g avn avn-n`
+
+## install
+
+- `npm install`
