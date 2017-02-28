@@ -1,8 +1,18 @@
+@import 'nib' 
+
 #pantry
-	border: #bbb solid thin
 	padding: 0
 	li
+		font-size: 1.1em
 		list-style: none
-		padding: .5em
-		background: linear-gradient(top, white, green)
-		
+		padding: .6em 1em
+		border: solid 1px #c6edc6
+		border-radius: left 1.25em
+		border-top-width: 0
+	li:first-child
+		border-top-width: 1px
+	.amount,
+	.measure
+		font-weight: bold
+	.name
+		text-transform: capitalize
