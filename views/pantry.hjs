@@ -9,7 +9,9 @@
 
   	<ul id="pantry">
   		{{#ingredients}}
-  			<li><span class="amount">{{quantity.amount}}</span> <span class="measure">{{quantity.measure}}</span> <span class="name">{{ingredient.name}}</span></li>
+  			<li><span class="amount">{{quantity.amount}}</span>&nbsp;<span 
+					  class="measure">{{quantity.measure}}</span>&nbsp;<span 
+					  class="name">{{ingredient.name}}</span></li>
   		{{/ingredients}}
   	</ul>
   </body>
