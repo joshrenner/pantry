@@ -6,6 +6,11 @@
   </head>
   <body>
     <h1>{{ title }}</h1>
-    <p>{{ title }} by {{author}}</p>
+	<ul>
+		<li>Keep track of ingredients needed for recipies</li>
+		<li><a href="/pantry">Keep track of owned ingredients</a></li>
+		<li>search for recipies</li>
+		<li>create a shopping list</li>
+	</ul>
   </body>
 </html>
