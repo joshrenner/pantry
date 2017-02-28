@@ -3,13 +3,16 @@
   <head>
     <title>{{ title }}</title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
+	<link href="https://fonts.googleapis.com/css?family=Mr+Dafoe" rel="stylesheet">
   </head>
   <body>
     <h1>{{ title }}</h1>
 
   	<ul id="pantry">
   		{{#ingredients}}
-  			<li><span class="amount">{{quantity.amount}}</span> <span class="measure">{{quantity.measure}}</span> <span class="name">{{ingredient.name}}</span></li>
+  			<li><span class="amount">{{quantity.amount}}</span>&nbsp;<span 
+					  class="measure">{{quantity.measure}}</span>&nbsp;<span 
+					  class="name">{{ingredient.name}}</span></li>
   		{{/ingredients}}
   	</ul>
   </body>
